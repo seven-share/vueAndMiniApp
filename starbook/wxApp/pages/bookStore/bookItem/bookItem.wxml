@@ -1,0 +1,45 @@
+
+<!--pages/bookStore/bookItem/bookItem.wxml-->
+<view class="border">
+  <view class="contenter">
+    <image src="{{bookItem.image}}"></image>
+    <view class="bookInfo">
+      <view class="bookName">书名：{{bookItem.bookTitle}}</view>
+      <view class="author">作者：{{bookItem.author}}</view>
+      <view class="publisher">出版社：{{bookItem.publisher}}</view>
+    </view>
+  </view>
+</view>
+
+<block wx:for="{{feel}}">
+<view class="border">
+  <view class="person">
+    <image src="{{item.avatarUrl}}"></image>
+    <view class="nickName">
+      <text>{{item.nickName}}</text>
+    </view>
+    <text class="time">{{item.time}}</text>
+  </view>
+  <view class="feel">{{item.feel}}</view>
+</view>
+</block>
+
+
+
+
+
+
+<view class="border">
+  <view class="person">
+    <image src="/images/nearBook/avatar1.png"></image>
+    <view class="nickName">
+      <text>昵称</text>
+    </view>
+    <text class="time">2017-4-21</text>
+  </view>
+  <view class="feel">
+    凡事先反思一下自己，是不是做得有问题，别老是忙着怪别人态度不好。能指出你哪儿不对并且分享她的做事方法的同事，多难得啊！不管别人出于什么目的，客观上都会促进你进步。————若是它真的要走，不会理你是不是一无所有
+  </view>
+</view>
+
+<button catchtap="borrow">我要借阅</button>

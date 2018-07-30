@@ -1,0 +1,17 @@
+.scroll-box{
+  display: flex;
+  width: fit-content;
+  line-height: 100rpx;
+  margin-bottom: 1px;
+  position: relative;
+  transition: left 0.2s ease-in-out; 
+}
+.scroll-box .content{
+  width: 750rpx;
+  background-color: gray;
+}
+.scroll-box .delete{
+  background-color: red;
+  width: 160rpx;
+  text-align: center;
+}

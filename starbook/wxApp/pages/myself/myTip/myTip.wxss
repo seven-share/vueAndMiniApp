@@ -1,0 +1,25 @@
+/* pages/myself/myRequest/myrequest.wxss */
+.subjectTitle{
+    color: white;
+    background-color: #1e8ae8;
+    border-radius: 20rpx;
+    height: 80rpx;
+    margin: 30rpx 20rpx 10rpx;
+}
+.subjectTitle text{
+    line-height: 80rpx;
+}
+.subjectTitle .label{
+    margin-left: 240rpx;
+}
+textarea{
+    border: 1px solid black;
+    width: 700rpx;
+    margin-left: 25rpx;
+    margin-top: 20rpx;
+}
+button{
+    background-color: #1e8ae8;
+    width: 600rpx;
+    margin: 100rpx 80rpx;
+}

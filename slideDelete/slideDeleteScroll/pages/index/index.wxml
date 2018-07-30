@@ -1,0 +1,20 @@
+<!--pages/index/index.wxml-->
+<!-- <view class="item-box">
+  <view class="items">
+    <view wx:for="{{list}}" wx:key="{{index}}" class="item">
+      <view bindtouchstart="touchS" bindtouchmove="touchM" bindtouchend="touchE" data-index="{{index}}" style="{{item.txtStyle}}" class="inner txt">
+        {{index}}{{item.txt}}
+      </view>
+      <view data-index="{{index}}" bindtap="delItem" class="inner del">删除</view>
+    </view>
+  </view>
+</view> -->
+<view class='container'>
+  <scroll-view scroll-x='true' wx:for="{{list}}" wx:key="{{index}}" scroll-with-animation="true" bindtouchstart="touchS" bindtouchend="touchE" scroll-left="{{item.left}}" data-sid='{{index}}'>
+    <view class='scroll-box'>
+      <view class='content'>内容部分{{item.txt}}</view>
+      <view class='delete' catchtap='deleteTab' data-sid='{{index}}'>删除</view>
+    </view>
+    
+  </scroll-view>
+</view>

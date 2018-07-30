@@ -1,0 +1,14 @@
+<!--pages/myself/bookTime/bookTime.wxml-->
+<view>
+  <view class="subjectTitle">
+    <text class="label">我的图书时间轴</text>
+  </view>
+  <view class="bookStore">
+    <block wx:for="{{bookTime}}">
+        <view class="book">
+          <image src="{{item.image}}"></image>
+          <text>{{item.readTime}}</text>
+        </view>
+    </block>
+  </view>
+</view>

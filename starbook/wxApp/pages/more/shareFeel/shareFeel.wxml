@@ -1,0 +1,5 @@
+<!--pages/more/shareFeel/shareFeel.wxml-->
+<form bindsubmit="shareFeel">
+  <textarea bindblur="bindTextAreaBlur" placeholder="请输入你的心得" name="feel" />
+   <button size="default" type="primary" form-type="submit">分享心得</button>
+</form>

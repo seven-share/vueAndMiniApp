@@ -1,0 +1,23 @@
+.navbar{
+  border-bottom: 2rpx solid #777777;
+  line-height: 80rpx;
+}
+.navbar .navbar-container{
+  display: flex;
+  width: fit-content;
+}
+.navbar .navbar-container view{
+  padding: 0 10rpx;
+  width: 100rpx;
+  text-align: center;
+}
+.navbar .navbar-container .active{
+  color: red;
+  border-bottom: 2px red solid
+}
+swiper{
+  height: 100%
+}
+.swiper-content{
+  text-align: center;
+}

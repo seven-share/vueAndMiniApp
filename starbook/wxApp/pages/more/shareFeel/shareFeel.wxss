@@ -1,0 +1,13 @@
+/* pages/more/shareFeel/shareFeel.wxss */
+page{
+  background-color: #bfbfbf;
+}
+textarea{
+  height: 700rpx;
+  width: 710rpx;
+  margin: 20rpx;
+  background-color: white;
+}
+button{
+  margin: 40rpx;
+}

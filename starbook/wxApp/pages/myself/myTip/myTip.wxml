@@ -1,0 +1,12 @@
+
+<!--pages/myself/myRequest/myrequest.wxml-->
+<view class="subjectTitle">
+  <text class="label">我的借阅要求</text>
+</view>
+
+<view class="section">
+  <form bindsubmit="bindFormSubmit">
+    <textarea name="textarea" placeholder = "请填入你的借阅贴士" />
+    <button form-type="submit"> 提交 </button>
+  </form>
+</view>

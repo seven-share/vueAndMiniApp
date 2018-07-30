@@ -1,0 +1,48 @@
+/* pages/nearBook/nearBook.wxss */
+page{
+  background-color: #bfbfbf;
+}
+.border{
+    border: 1px white solid;
+    margin: 20rpx 10rpx;
+    border-radius: 20rpx;
+    background-color: white;
+}
+.person{
+    margin: 20rpx;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.person image{
+    width: 80rpx;
+    height: 80rpx;
+   margin-right: 20rpx;
+    
+}
+.nickName{
+    margin-top: 20rpx;
+}
+.distance{
+    position: absolute;
+    right: 0rpx;
+    font-size: 28rpx;
+}
+.allBook{
+    margin: 10rpx;
+    display: flex;
+    flex-direction: row;
+}
+.book{
+    display: flex;
+    flex-direction: column;
+    margin-left: 12rpx;
+}
+.book image{
+    width: 162rpx;
+    height: 230rpx;
+    margin-bottom: 5rpx;
+}
+.book text{
+    font-size: 28rpx;
+}

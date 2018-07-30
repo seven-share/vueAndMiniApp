@@ -1,0 +1,29 @@
+
+<!--pages/myself/book/book.wxml-->
+<view>
+  <view class="subjectTitle">
+    <text class="label">借阅的图书</text>
+  </view>
+  <view class="bookStore">
+    <block wx:for="{{borrowBook}}">
+        <view class="book">
+          <image src="{{item.image}}"></image>
+          <text>剩余{{item.leftTime}}天</text>
+        </view>
+    </block>
+  </view>
+</view>
+
+<view>
+  <view class="subjectTitle">
+    <text class="label">我分享的图书</text>
+  </view>
+  <view class="bookStore">
+    <block wx:for="{{shareBook}}">
+        <view class="book">
+          <image src="{{item.image}}"></image>
+          <text>{{item.bookTitle}}</text>
+        </view>
+    </block>
+  </view>
+</view>

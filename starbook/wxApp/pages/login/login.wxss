@@ -1,0 +1,29 @@
+/* pages/login/login.wxss */
+.login{
+    text-align: center;
+    margin-top: 200rpx;
+}
+.login image{
+    width: 200rpx;
+    height: 200rpx;
+}
+.personMessage{
+    margin-top: 50rpx;
+}
+.title{
+    color: #1e8ae8;
+    font-weight: bold;
+    margin-bottom: 10rpx;
+}
+input{
+    width: 400rpx;
+    border-bottom: black solid 1px;
+    margin: 0 auto;
+}
+button{
+    width: 80%;
+    background-color: #1e8ae8;
+    position: fixed;
+    bottom: 30rpx;
+    left: 80rpx;
+}

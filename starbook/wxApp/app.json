@@ -1,0 +1,67 @@
+{
+  "pages": [
+    "pages/bookStore/bookStore",
+    "pages/more/shareFeel/shareFeel",
+    "pages/more/getBook/getBook",
+    "pages/more/shareBook/shareBook",
+    "pages/more/more",
+    "pages/login/login",
+    "pages/bookStore/bookMore/bookMore",
+    "pages/bookStore/bookSortMore/bookSortMore",
+    "pages/nearBook/nearBook",
+    "pages/nearBook/nearBookList/nearBookList",
+    "pages/bookStore/bookItem/bookItem",
+    "pages/myself/myself",
+    "pages/myself/aboutUs/aboutUs",
+    "pages/myself/myTip/myTip",
+    "pages/myself/bookTime/bookTime",
+    "pages/myself/myFeel/myFeel",
+    "pages/myself/book/book",
+    "pages/feel/feel"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1e8ae8",
+    "navigationBarTitleText": "星布书途",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "color": "black",
+    "selectedColor": "#1e8ae8",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/bookStore/bookStore",
+        "text": "书城",
+        "iconPath": "images/tabBar/bookStore.png",
+        "selectedIconPath": "images/tabBar/bookStoreSelect.png"
+      },
+      {
+        "pagePath": "pages/nearBook/nearBook",
+        "text": "附近",
+        "iconPath": "images/tabBar/nearBook.png",
+        "selectedIconPath": "images/tabBar/nearBookSelect.png"
+      },
+      {
+        "pagePath": "pages/more/more",
+        "text": "",
+        "iconPath": "images/tabBar/more.png",
+        "selectedIconPath": "images/tabBar/moreSelect.png"
+      },
+      {
+        "pagePath": "pages/feel/feel",
+        "text": "心得",
+        "iconPath": "images/tabBar/feel.png",
+        "selectedIconPath": "images/tabBar/feelSelect.png"
+      },
+      {
+        "pagePath": "pages/myself/myself",
+        "text": "我",
+        "iconPath": "images/tabBar/myself.png",
+        "selectedIconPath": "images/tabBar/myselfSelect.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+
+<!--pages/bookStore/bookMore/bookMore.wxml-->
+<form bindsubmit="searchSubmit">
+  <view class="search">
+    <input placeholder="请输入要搜索的书名" name="bookName" />
+    <button formType="submit">搜索</button>
+  </view>
+</form>
+
+<!--具体图书部分-->
+<view class="bookStore">
+  <block wx:for="{{book}}">
+    <view class="book" bindtap="tapBook" data-book-item="{{item}}">
+      <image src="{{item.image}}"></image>
+      <text>{{item.bookTitle}}</text>
+    </view>
+  </block>
+</view>

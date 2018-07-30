@@ -1,0 +1,8 @@
+
+<!--pages/more/more.wxml-->
+<image src="/images/more/back.jpg"></image>
+<view class="button">
+  <button catchtap="getBook">获取图书</button>
+  <button  catchtap="shareBook">分享图书</button>
+  <button catchtap="shareFeel">书写心得</button>
+</view>

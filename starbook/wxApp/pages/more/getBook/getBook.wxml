@@ -1,0 +1,11 @@
+<!--pages/more/getBook/getBook.wxml-->
+<view>
+<form bindsubmit="getBook">
+   <view class="get">
+    <text>输入图书ID</text>
+    <input placeholder="ID号码" name="id"/>
+  </view>
+  <button size="default" type="primary" class="get" form-type="submit">获取图书</button>
+</form>
+ 
+</view>

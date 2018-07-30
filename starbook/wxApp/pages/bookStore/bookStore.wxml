@@ -1,0 +1,42 @@
+
+<!--pages/bookStore/bookStore.wxml-->
+
+<!--顶部轮播图-->
+<view>
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{swiperImage}}">
+      <swiper-item>
+        <image src="{{item}}" />
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+
+<!--分类部分-->
+<view>
+  <view class="subjectTitle" catchtap="tapSortMore">
+    <text class="label">分类</text>
+    <text class="more">更多>></text>
+  </view>
+  <view class="sort"  catchtap="tapBookMore">
+    <block wx:for="{{sort}}">
+        <image src="{{item.image}}"></image>
+    </block>
+  </view>
+</view>
+
+<!--具体图书部分-->
+<view>
+  <view class="subjectTitle" catchtap="tapBookMore">
+    <text class="label">书城</text>
+    <text class="more">更多>></text>
+  </view>
+  <view class="bookStore">
+    <block wx:for="{{book}}">
+        <view class="book" bindtap="tapBook" data-book-item="{{item}}">
+          <image src="{{item.image}}"></image>
+          <text>{{item.bookTitle}}</text>
+        </view>
+    </block>
+  </view>
+</view>

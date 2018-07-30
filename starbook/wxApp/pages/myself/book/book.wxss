@@ -1,0 +1,33 @@
+/* pages/myself/book/book.wxss */
+.subjectTitle{
+    color: white;
+    background-color: #1e8ae8;
+    border-radius: 20rpx;
+    height: 80rpx;
+    margin: 30rpx 20rpx 10rpx;
+}
+.subjectTitle text{
+    line-height: 80rpx;
+}
+.subjectTitle .label{
+    margin-left: 250rpx;
+}
+.bookStore{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.book{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20rpx;
+    margin-bottom: 20rpx;
+}
+.book image{
+    height: 230rpx;
+    width: 162rpx;
+    margin-bottom: 5rpx;
+}
+.book text{
+    font-size: 30rpx;
+}

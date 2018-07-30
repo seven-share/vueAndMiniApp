@@ -1,0 +1,19 @@
+/* pages/more/getBook/getBook.wxss */
+page{
+  background-color: #bfbfbf;
+}
+.get{
+    margin-top: 350rpx;
+}
+.get text{
+    margin-left: 280rpx
+}
+input{
+    background-color: white;
+    height: 100rpx;
+    width: 60%;
+    margin: 80rpx auto;
+}
+button{
+    width: 80%;
+}

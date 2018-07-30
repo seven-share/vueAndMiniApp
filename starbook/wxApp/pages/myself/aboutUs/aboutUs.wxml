@@ -1,0 +1,21 @@
+<!--pages/myself/aboutUs/aboutUs.wxml-->
+<view class="border">
+<view class="title">星布书途科技</view>
+<view class="title">我们是星布书途团队，致力于图书共享。</view>
+<view class="title">读书升华灵魂，分享带来快乐。 ---雨果</view>
+</view>
+<view class="border">
+我们以众筹的方式，让每个爱读书的朋友，以最低的价格读到自己想读的书，以最便捷的方式书友拿到，以最有爱的方式让图书在书友手中传递。
+</view>
+<view class="border">
+这里是一个爱读书的人的社区，有书籍分享，有心得分享，还有一群和你兴趣相同的书友。我们希望促进全民阅读风气的形成，全新全意为书友服务。
+</view>
+
+<view class="border">
+<view class="title">联系我们</view>
+<view class="title">星布书途团队</view>
+<view class="title">邮箱：<text>starbooker163.com</text></view>
+</view>
+
+
+

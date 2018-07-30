@@ -1,0 +1,19 @@
+/* pages/login/loginConform/loginConform.wxss */
+.loginConform{
+    text-align: center;
+    margin-top: 500rpx;
+    color: #1e8ae8;
+    font-weight: bold;
+}
+input{
+    margin: 20rpx auto;
+    width: 300rpx;
+    height: 80rpx;
+    border: black solid 1px;
+    text-align: center;
+}
+button{
+    width: 80%;
+    background-color: #1e8ae8;
+    margin-top: 480rpx;
+}

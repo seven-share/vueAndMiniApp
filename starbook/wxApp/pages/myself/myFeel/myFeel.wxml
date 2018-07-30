@@ -1,0 +1,13 @@
+<!--pages/myself/myFeel/myFeel.wxml-->
+<block wx:for="{{feel}}">
+<view class="border">
+  <view class="person">
+    <image src="{{item.avatarUrl}}"></image>
+    <view class="nickName">
+      <text>{{item.nickName}}</text>
+    </view>
+    <text class="time">{{item.time}}</text>
+  </view>
+  <view class="feel">{{item.feel}}</view>
+</view>
+</block>

@@ -1,0 +1,14 @@
+/* pages/more/more.wxss */
+image{
+    height: 1334rpx;
+    width: 750rpx;
+}
+.button{
+    position: fixed;
+    bottom: 20rpx;
+}
+button{
+    background-color: #1e8ae8;
+    width: 600rpx;
+    margin: 30rpx 80rpx;
+}

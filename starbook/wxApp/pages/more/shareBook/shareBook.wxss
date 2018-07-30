@@ -1,0 +1,33 @@
+/* pages/more/shareBook/shareBook.wxss */
+.bookMessage {
+  margin-top: 70rpx;
+  text-align: center;
+  margin-bottom: 50rpx;
+}
+
+.bookMessage image {
+  height: 498rpx;
+  width: 350rpx;
+  margin-bottom: 30rpx;
+}
+.title{
+    margin-bottom: 20rpx;
+    font-weight: bold;
+}
+.author{
+    margin-bottom: 20rpx;
+}
+textarea {
+  background-color: white;
+  margin-left: 80rpx;
+  height: 240rpx;
+  color: fofofo;
+  border: #c5c7c9 solid 1px;
+}
+
+button {
+  width: 90%;
+  position: fixed;
+  bottom: 20rpx;
+  left: 40rpx;
+}

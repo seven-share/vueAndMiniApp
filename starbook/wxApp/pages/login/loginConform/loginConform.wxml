@@ -1,0 +1,4 @@
+<!--pages/login/loginConform/loginConform.wxml-->
+<view class="loginConform">验证码</view>
+<input placeholder="请输入验证码"/>
+<button>确认</button>

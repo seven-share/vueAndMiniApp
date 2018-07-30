@@ -1,0 +1,48 @@
+/* pages/bookStore/bookMore/bookMore.wxss */
+
+.search {
+  height: 70rpx;
+  background-color: #bfbfbf;
+  padding: 15rpx 0rpx 15rpx 50rpx;
+  display: flex;
+  flex-direction: row;
+  margin: 10rpx;
+  border-radius: 10rpx;
+}
+
+input {
+  width: 400rpx;
+  height: 70rpx;
+  background-color: white;
+  border-radius: 10rpx;
+}
+
+button {
+  width: 150rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  margin-left: 60rpx;
+}
+
+.bookStore {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.book {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20rpx;
+  margin-bottom: 20rpx;
+}
+
+.book image {
+  height: 230rpx;
+  width: 162rpx;
+  margin-bottom: 5rpx;
+}
+
+.book text {
+  font-size: 30rpx;
+}

@@ -1,0 +1,17 @@
+<view class='container'>
+  <scroll-view class="navbar" scroll-x="true" scroll-left='{{leftDistance}}'>
+    <view class='navbar-container'>
+      <view wx:for="{{navbarArray}}" class="{{item.tabActive?'active' :''}}" wx:key="{{index}}" catchtap='switchText' data-index='{{index}}'>
+        {{item.text}}
+      </view>
+    </view>
+  </scroll-view>
+
+  <scroll-view class='scroll' scroll-x="true" scroll-left='{{leftConDis}}' scroll-with-animation="true" bindtouchstart = "handletouchtart" bindtouchend="handletouchmove">
+    <view class='scroll-content'>
+      <view wx:for="{{navbarArray}}" wx:key="{{index}}" catchtap='switchText' data-index='{{index}}'>
+        {{item.text}}
+      </view>
+    </view>
+  </scroll-view>
+</view>

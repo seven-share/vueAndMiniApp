@@ -1,0 +1,35 @@
+/* pages/myself/myself.wxss */
+page{
+  background-color: #bfbfbf;
+}
+.border{
+    border: 1px white solid;
+    margin: 20rpx 10rpx;
+    border-radius: 20rpx;
+    background-color: white;
+    padding: 20rpx;
+}
+.myself{
+    display: flex;
+    flex-direction: row;
+}
+.myself image{
+    width: 100rpx;
+    height: 100rpx;
+}
+.myself .nickName{
+    margin-left: 30rpx;
+    margin-top: 30rpx;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+}
+.content image{
+    width: 50rpx;
+    height: 50rpx;
+    margin-right: 30rpx;
+}
+.content .text{
+    margin-top: 4rpx;
+}

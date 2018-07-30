@@ -1,0 +1,6 @@
+<!--pages/bookStore/bookSortMore/bookSortMore.wxml-->
+<view class="sort">
+    <block wx:for="{{sort}}">
+        <image src="{{item.image}}"></image>
+    </block>
+  </view>

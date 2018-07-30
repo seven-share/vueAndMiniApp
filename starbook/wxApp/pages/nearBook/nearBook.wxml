@@ -1,0 +1,21 @@
+
+<!--pages/nearBook/nearBook.wxml-->
+<block wx:for="{{nearBook}}" wx:for-item="person">
+  <view class="border" data-person-item="{{person}}" catchtap="tapPerson">
+    <view class="person">
+      <image src="{{person.avatarUrl}}"></image>
+      <view class="nickName">
+        <text>{{person.nickName}}</text>
+      </view>
+      <text class="distance">距离:{{person.distance}}m</text>
+    </view>
+    <view class="allBook">
+      <block wx:for="{{person.book}}">
+        <view class="book">
+          <image src="{{item.image}}"></image>
+          <text>{{item.bookTitle}}</text>
+        </view>
+      </block>
+    </view>
+  </view>
+</block>

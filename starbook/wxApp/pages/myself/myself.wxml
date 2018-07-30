@@ -1,0 +1,46 @@
+
+<!--pages/myself/myself.wxml-->
+<view class="border">
+  <view class="myself">
+    <image src="{{avatarUrl}}"></image>
+    <view class="nickName">
+      <text>{{nickName}}</text>
+    </view>
+  </view>
+</view>
+<view class="border" catchtap="tapBook">
+  <view class="content">
+    <image src="/images/myself/book.png"></image>
+    <view class="text">我的图书</view>
+  </view>
+</view>
+<view class="border">
+  <view class="content">
+    <image src="/images/myself/chat.png"></image>
+    <view class="text">私聊信息</view>
+  </view>
+</view>
+<view class="border" catchtap="tapMyFeel">
+  <view class="content">
+    <image src="/images/myself/myFeel.png"></image>
+    <view class="text">我的心得</view>
+  </view>
+</view>
+<view class="border" catchtap="tapBookTime">
+  <view class="content">
+    <image src="/images/myself/bookTime.png"></image>
+    <view class="text">读书时间轴</view>
+  </view>
+</view>
+<view class="border" catchtap="tapMyTip">
+  <view class="content">
+    <image src="/images/myself/myTip.png"></image>
+    <view class="text">我的借阅要求</view>
+  </view>
+</view>
+<view class="border" catchtap="tapAboutUs">
+  <view class="content">
+    <image src="/images/myself/aboutUs.png"></image>
+    <view class="text">关于我们</view>
+  </view>
+</view>

@@ -1,0 +1,39 @@
+
+<!--pages/nearBook/nearBookList/nearBookList.wxml-->
+<view class="border">
+  <view class="person">
+    <image src="{{personItem.avatarUrl}}"></image>
+    <view class="nickName">
+      <text>{{personItem.nickName}}</text>
+    </view>
+    <text class="distance">距离:{{personItem.distance}}m</text>
+  </view>
+</view>
+<view class="border">
+  <view class="myTip">
+    <view class="myTipTitle">我的借阅要求：</view>
+    <view class="myTipContent">{{personItem.myTip}}</view>
+  </view>
+</view>
+<block wx:for="{{personItem.book}}">
+  <view class="border">
+    <view class="contenter">
+      <image src="{{item.image}}"></image>
+      <view class="bookInfo">
+        <view class="bookName">书名：{{item.bookTitle}}</view>
+        <view class="author">作者：{{item.author}}</view>
+        <view class="publisher">出版社：{{item.publisher}}</view>
+      </view>
+    </view>
+  </view>
+</block>
+<view class="border">
+  <view class="contenter">
+    <image src="/images/bookStore/book1.jpg"></image>
+    <view class="bookInfo">
+      <view class="bookName">书名：{{bookItem.bookTitle}}</view>
+      <view class="author">作者：{{bookItem.author}}</view>
+      <view class="publisher">出版社：{{bookItem.publisher}}</view>
+    </view>
+  </view>
+</view>

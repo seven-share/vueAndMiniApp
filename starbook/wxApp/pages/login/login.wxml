@@ -1,0 +1,16 @@
+
+<!--pages/login/login.wxml-->
+<form bindsubmit="formBindsubmit">
+<view class="login">
+  <image src="{{avatarUrl}}"></image>
+  <view class="personMessage">
+    <view class="title">笔名:</view>
+    <input name="nickName" value="{{nickName}}" />
+  </view>
+  <view class="personMessage">
+    <view class="title">手机号:</view>
+    <input name="phoneNum" type="number" placeholder="请输入手机号" focus="true"/>
+  </view>
+  <button form-type="submit">立即注册</button>
+</view>
+</form>

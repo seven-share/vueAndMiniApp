@@ -1,0 +1,9 @@
+/* pages/bookStore/bookSortMore/bookSortMore.wxss */
+.sort{
+    margin-top: 30rpx;
+}
+.sort image{
+    height: 140rpx;
+    width: 345rpx;
+    margin-left: 20rpx;
+}

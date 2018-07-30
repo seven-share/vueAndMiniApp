@@ -1,0 +1,6 @@
+<view class='container'>
+  <view class='scroll-box' wx:for="{{list}}" wx:key="{{index}}" style='left:{{item.leftDis}}' bindtouchstart="touchS" bindtouchmove="touchM" bindtouchend="touchE" data-sid='{{index}}'>
+    <view class='content'>内容部分{{item.txt}}</view>
+    <view class='delete' catchtap='deleteTab' data-sid='{{index}}'>删除</view>
+  </view>
+</view>

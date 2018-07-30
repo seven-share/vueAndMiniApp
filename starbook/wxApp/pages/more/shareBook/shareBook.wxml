@@ -1,0 +1,11 @@
+<!--pages/more/shareBook/shareBook.wxml-->
+<view>
+  <view class="bookMessage">
+    <image src="{{bookMessage.image}}"></image>
+    <view class="title">{{bookMessage.title}}</view>
+    <view class="author">{{bookMessage.author}}</view>
+    <view>{{bookMessage.publisher}}</view>
+  </view>
+  <textarea placeholder="请爱惜图书，尽量不要图画" name="textarea" />
+  <button size="default" type="primary" class="confirm" catchtap="shareConfirm">确认分享</button>
+</view>
