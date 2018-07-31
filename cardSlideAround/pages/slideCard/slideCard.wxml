@@ -1,0 +1,9 @@
+<!--pages/slideCard/slideCard.wxml-->
+<view class='container'>
+  <view class='card' style="position: absolute; left:{{leftPos1}}rpx; top:{{topPos1}}rpx; z-index:{{isShow?2:1}}; opacity:{{isShow?1:0}};" bindtouchstart='touchS1' bindtouchmove="touchM1" bindtouchend="touchE1" animation="{{animationData1}}">
+    <view class='word'>1111111</view>
+  </view>
+  <view class='card' style="position: absolute; left:{{leftPos2}}rpx; top:{{topPos2}}rpx; z-index:{{isShow?1:2}}; opacity:{{isShow?0:1}};" bindtouchstart='touchS2' bindtouchmove="touchM2" bindtouchend="touchE2" animation="{{animationData2}}">
+    <view class='word'>2222222</view>
+  </view>
+</view>

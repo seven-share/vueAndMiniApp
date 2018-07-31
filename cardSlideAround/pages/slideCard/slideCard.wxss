@@ -1,0 +1,20 @@
+/* pages/slideCard/slideCard.wxss */
+.card {
+  width: 664rpx;
+  height: 950rpx;
+  box-sizing: border-box;
+  background-color: white;
+  padding: 0rpx 40rpx;
+  text-align: center;
+  box-shadow: 2px 2px 8px #aaa;
+}
+.card-content{
+  height: 600rpx;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.card .word {
+  font-size: 35px;
+  font-weight: bolder;
+  margin: 80rpx 0 40rpx;
+}

@@ -1,0 +1,9 @@
+/**app.wxss**/
+page{
+  background-color: rgb(231, 240, 255);
+}
+.container {
+  height: 100%;
+  width: 100%; 
+  /* box-sizing: border-box; */
+} 
