@@ -1,0 +1,13 @@
+<!--components/menu/menu.wxml-->
+<view class='navBtn' bindtap='showDrawer'>
+  <image class='btnLogo' src='/imgs/more.png'></image>
+</view>
+<view class='leftDrawer' hidden='{{hideDrawerFlag}}'>
+  <view class='menu' animation="{{animationData}}">
+    <slot></slot>
+    <view class='leftArrow' bindtap='hideDrawer'>
+      <image class='btnLogo' src='/imgs/left.png'></image>
+    </view>
+  </view>
+  <view class='shadow' bindtap='hideDrawer'></view>
+</view>

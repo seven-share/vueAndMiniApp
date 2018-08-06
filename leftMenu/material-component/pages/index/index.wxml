@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='topBack'>
+    <image src='/imgs/top.jpg'></image>
+  </view>
+
+  <left-menu hideDrawerFlag='{{hideDrawerFlag}}' bind:showDrTry="showTry">
+    <view class='menu-item' bindtap='toLogs'>
+      hello
+    </view>
+    <view class='menu-item'>
+      world
+    </view>
+    <view class='menu-item'>
+      nice
+    </view>
+  </left-menu>
+
+</view>

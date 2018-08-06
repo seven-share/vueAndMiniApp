@@ -1,0 +1,26 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='topBack'>
+    <image src='/imgs/top.jpg'></image>
+  </view>
+  <view class='navBtn' bindtap='showDrawer'>
+    <image src='/imgs/more.png'></image>
+  </view>
+  <view class='leftDrawer' wx:if='{{hideDrawerFlag}}'>
+    <view class='menu {{moveFlag?"menuMove":"menuHide"}}'>
+      <view class='menu-item' bindtap='toLogs'>
+        hello
+      </view>
+      <view class='menu-item'>
+        world
+      </view>
+      <view class='menu-item'>
+        nice
+      </view>
+      <view class='leftArrow' bindtap='hideDrawer'>
+        <image src='/imgs/left.png'></image>
+      </view>
+    </view>
+    <view class='shadow' bindtap='hideDrawer'></view>
+  </view>
+</view>

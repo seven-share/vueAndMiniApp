@@ -1,0 +1,12 @@
+<!--logs.wxml-->
+<view class='topNav'>
+  <view class='leftArrow' bindtap='backBtn'>
+    <image src='/imgs/left.png'></image>
+  </view>
+  <view class='title'>
+    title
+  </view>
+</view>
+<view class="container log-list">
+  <view>here is logs</view>
+</view>

@@ -1,0 +1,90 @@
+/**index.wxss**/
+
+.topBack {
+  height: 200px;
+}
+
+.topBack image {
+  width: 100%;
+  height: 100%;
+}
+
+.navBtn {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 20px;
+  left: 6px;
+}
+
+.navBtn image {
+  height: 100%;
+  width: 100%;
+}
+
+.leftDrawer {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+}
+
+.leftDrawer .menu {
+  width: 150px;
+  background-color: #bfbfbf;
+  
+  padding-top: 60px;
+}
+
+.leftDrawer .menuMove {
+  animation: menu 0.5s;
+  animation-fill-mode: forwards;
+}
+.leftDrawer .menuHide{
+  animation: hideM 0.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes menu {
+  from {
+    transform: translateX(-150px);
+  }
+
+  to {
+    transform: translateX(0px);
+  }
+}
+@keyframes hideM {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-150px);
+  }
+}
+
+.leftDrawer .menu .menu-item {
+  text-align: center;
+  padding: 6px 0;
+  border: gray solid;
+  border-width: 0 0 1px 0;
+}
+
+.leftDrawer .shadow {
+  flex: 1;
+  /* background-color: rgba(0,0,0,0.1); */
+}
+
+.leftArrow {
+  width: 50px;
+  height: 40px;
+  position: absolute;
+  bottom: 0;
+  left: 50px;
+}
+
+.leftArrow image {
+  width: 100%;
+  height: 100%;
+}
