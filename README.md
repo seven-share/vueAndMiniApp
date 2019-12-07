@@ -4,7 +4,7 @@
 - [侧边抽屉导航](./tree/master/leftMenu)
 - [卡片滑动切换](./tree/master/cardSlideAround)
 - [仿今日头条滚动](./tree/master/dailyNewsScroll)
-- [侧滑删除](tree/master/slideDelete)
+- [侧滑删除](https://github.com/seven-share/vueAndMiniApp/tree/master/slideDelete)
 - [图书分享小程序](./tree/master/starbook)
 ## vue部分
 - [仿饿了么](./tree/master/sellFood-vue)
