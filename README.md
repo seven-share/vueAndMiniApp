@@ -5,7 +5,7 @@
 - [卡片滑动切换](https://github.com/seven-share/vueAndMiniApp/tree/master/cardSlideAround)
 - [仿今日头条滚动](https://github.com/seven-share/vueAndMiniApp/tree/master/dailyNewsScroll)
 - [侧滑删除](https://github.com/seven-share/vueAndMiniApp/tree/master/slideDelete)
-- [图书分享小程序](./tree/master/starbook)
+- [图书分享小程序](？？)
 ## vue部分
 - [仿饿了么](https://github.com/seven-share/vueAndMiniApp/tree/master/sellFood-vue)
 - [elementUI后台项目](https://github.com/seven-share/vueAndMiniApp/tree/master/ele-mock)
