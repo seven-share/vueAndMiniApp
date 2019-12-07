@@ -1,11 +1,11 @@
 # vue前端和微信小程序项目
 ## 点击如下链接进入具体的项目README
 ## 微信小程序部分
-- [侧边抽屉导航](./tree/master/leftMenu)
-- [卡片滑动切换](./tree/master/cardSlideAround)
-- [仿今日头条滚动](./tree/master/dailyNewsScroll)
-- [侧滑删除](tree/master/slideDelete)
+- [侧边抽屉导航](https://github.com/seven-share/vueAndMiniApp/tree/master/leftMenu)
+- [卡片滑动切换](https://github.com/seven-share/vueAndMiniApp/tree/master/cardSlideAround)
+- [仿今日头条滚动](https://github.com/seven-share/vueAndMiniApp/tree/master/dailyNewsScroll)
+- [侧滑删除](https://github.com/seven-share/vueAndMiniApp/tree/master/slideDelete)
 - [图书分享小程序](./tree/master/starbook)
 ## vue部分
-- [仿饿了么](./tree/master/sellFood-vue)
-- [elementUI后台项目](./tree/master/ele-mock)
+- [仿饿了么](https://github.com/seven-share/vueAndMiniApp/tree/master/sellFood-vue)
+- [elementUI后台项目](https://github.com/seven-share/vueAndMiniApp/tree/master/ele-mock)
